@@ -1,0 +1,17 @@
+{
+  "name": "methodder",
+  "description": "Always carry your scopes",
+  "keywords": ["scope", "scope", "utility"],
+  "author": "Cole R Lawrence (ZombieHippie)",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZombieHippie/methodder.git"
+  },
+  "main":"bin/methodder.js",
+  "dependencies": {},
+  "devDependencies": {
+    "coffee-script":"1.*.*"
+  },
+  "engine": "node >= 10.0.0"
+}
