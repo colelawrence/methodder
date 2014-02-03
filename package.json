@@ -3,7 +3,7 @@
   "description": "Always carry your scopes",
   "keywords": ["scope", "scope", "utility"],
   "author": "Cole R Lawrence (ZombieHippie)",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/ZombieHippie/methodder.git"

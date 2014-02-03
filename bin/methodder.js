@@ -3,9 +3,13 @@ var Methodder;
 
 module.exports = Methodder = (function() {
   function Methodder(method, scope) {
-    return function(args) {
-      return method.call(scope, args);
-    };
+    this.method = method;
+    this.scope = scope;
+    return (function(_this) {
+      return function() {
+        return _this.method.apply(_this.scope, arguments);
+      };
+    })(this);
   }
 
   return Methodder;

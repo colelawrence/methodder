@@ -1,4 +1,4 @@
 module.exports = class Methodder
-	constructor: (method, scope) ->
-		return (args)->
-			method.call(scope, args)
+	constructor: (@method, @scope) ->
+		return =>
+			@method.apply(@scope, arguments)
